@@ -7,6 +7,9 @@ Human subjective evaluation is the ”gold standard” to evaluate speech qualit
 2. `python -m venv dns`, this will create a virtual environment _dns_ by creating a _dns_ directory inside _DNS-Challenge_.
 3. Check the version of _pip_ inside the virtual environment and update if necessary. `python -m pip --version`, if needed update pip version: `python -m pip install --upgrade pip`. At the time of writing this, it was pip 24.3.1. 
 4. Enter the virtual environment: `source dns/bin/activate`
+5. Go to DNSMOS directory: `cd DNSMOS`
+6. run: `python install-reqs.py`. This will scan the requirements.txt file and then try to insall all the requirements. If all the requirements are installed successfully, it will print _all packages installed successfully_, otherwise it will print the list of packages failed to install.
+7. If everything installed successfully, follow the next steps.
 
 ## Evaluation methodology:
 Use the **dnsmos_local.py** script.
